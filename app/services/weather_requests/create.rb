@@ -18,9 +18,9 @@ module WeatherRequests
         request_time:,
         city:,
         date:,
-        temperature: weather_request['temperature'],
-        precipitation_probability: weather_request['precipitation_probability'],
-        precipitation_mm: weather_request['precipitation_mm']
+        temperature: weather_request["temperature"],
+        precipitation_probability: weather_request["precipitation_probability"],
+        precipitation_mm: weather_request["precipitation_mm"]
       }
     end
 

@@ -3,7 +3,7 @@ module Audit
     attr_reader :client
 
     def create_audit(who:, when:, what:)
-      client.post(path: '', body: { who:, when:, what: })
+      client.post(path: "", body: { who:, when:, what: })
     end
 
     private def client
